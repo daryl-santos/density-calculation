@@ -1,5 +1,18 @@
 README FILE
 
+############################# UPDATED COMMENTS AS OF OCT. 2025 #########################################
+For future users of this code, when using this code for research purposes, please cite the following paper: 
+Santos, D.J.D., Goto, T., Kim, S.J., Wang, T.W., Ho, S.C., Hashimoto, T., Huang, T.C., Lu, T.Y., On, A.Y., 
+Wong, Y.H.V. and Hsiao, T.Y.Y., 2021. Environmental effects on AGN activity via extinction-free mid-infrared 
+census. Monthly Notices of the Royal Astronomical Society, 507(2), pp.3070-3088.
+
+Sample datasets were also included in the repository so that users can have a feeling of how the input
+files look like. The survey edge may not be available for some surveys, so one could use Engauge Digitizer 
+or a similar software to "trace" the survey edge.
+
+For the actual geometry for the edge correction, see Edge Correction Explanation.pdf
+########################################################################################################
+
 LOCAL GALAXY DENSITY CODE 
 ver. 2.7
 Author: Daryl Joe D. Santos
@@ -90,5 +103,6 @@ tenth_dist_corrected is converted to Mpc first: I = tenth_dist_corrected [rad] *
     pool.close()
     pool.join()
     return df'''
+
 
 
